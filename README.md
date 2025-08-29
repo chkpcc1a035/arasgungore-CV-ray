@@ -6,11 +6,37 @@ Please find attached my [CV](https://drive.google.com/file/d/1TGwMpZl6FDeQk1w_-E
 
 
 
-## Run on Terminal
+## Build Instructions
 
+### Generate PDF
 ```sh
+# Using LaTeX directly
 pdflatex main.tex
+
+# Using Makefile
+make pdf
 ```
+
+### Generate DOCX
+```sh
+# Using the conversion script (recommended)
+./convert_to_docx.sh
+
+# Using Makefile
+make docx
+
+# Direct pandoc conversion (after installing: brew install pandoc)
+pandoc main.tex -o main.docx --from latex --to docx --standalone
+```
+
+### Generate Both PDF and DOCX
+```sh
+make all
+```
+
+### Requirements
+- **For PDF generation**: LaTeX distribution (e.g., MacTeX on macOS)
+- **For DOCX generation**: [Pandoc](https://pandoc.org/) - Install with `brew install pandoc`
 
 
 
