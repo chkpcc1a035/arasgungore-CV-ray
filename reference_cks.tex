@@ -1,0 +1,67 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\setlength{\parskip}{0.5em}
+
+% Left-align header and signature
+\longindentation=0pt
+\indentedwidth=\textwidth
+\makeatletter
+\renewcommand*{\opening}[1]{\ifx\@empty\fromaddress
+  \thispagestyle{firstpage}%
+    {\raggedleft\@date\par}%
+  \else  % home address
+    \thispagestyle{empty}%
+    {\noindent\fromaddress \par}%
+    {\raggedleft\@date\par}%
+  \fi
+  \vspace{1\parskip}%
+  {\raggedright \toname \par}%
+  {\raggedright \toaddress \par}%
+  \vspace{1\parskip}%
+  #1\par\nobreak}
+\makeatother
+
+\signature{YAN KIN LONG \\ Senior Software Engineer \\ Ntuple Global Limited \\ rayyan@ntuple.com \\ +852 55412035}
+\address{Ntuple Global Limited \\ Unit 17, 3/F, Ph 3 Building 16W, Hong Kong Science Park \\ 16 Science Park West Ave \\ Sha Tin, New Territories, Hong Kong}
+\date{September 1, 2024}
+
+\begin{document}
+
+\begin{letter}{To Whom It May Concern}
+
+\opening{Dear Hiring Manager,}
+
+
+I am writing to provide a strong recommendation for \textbf{Chan Ka Shing}, who worked under my supervision at Ntuple Global Limited from November 18, 2022, to September 2, 2024. Mr. Chan served as a part-time developer from November 2022 to September 2023, then transitioned to full-time from September 2023 to September 2024. As his direct supervisor, I closely observed his technical capabilities and professional growth.
+
+\textbf{Technical Expertise and Contributions}
+
+Mr. Chan demonstrated exceptional full-stack web development skills, consistently delivering comprehensive solutions for corporate clients. His technical contributions were significant:
+
+\textbf{Full-Stack Development:} Mr. Chan provided end-to-end solutions for multiple clients, showcasing proficiency across front-end and back-end technologies. His ability to understand requirements and translate them into robust, scalable solutions was impressive.
+
+\textbf{API Integration:} He successfully integrated logistics APIs enabling real-time shipment tracking functionality. This integration improved clients' operational efficiency and customer satisfaction through transparent tracking information.
+
+\textbf{E-commerce Enhancement:} Mr. Chan maintained and enhanced our online ordering platform, including payment gateway optimization. His work ensured seamless, secure transactions and improved user experience.
+
+\textbf{Custom Solutions:} He developed a specialized e-commerce shipment tracking portal and delivered customized websites for various clients, each tailored to specific business needs.
+
+\textbf{Professional Qualities}
+
+Mr. Chan exhibited remarkable professionalism and adaptability. His transition from part-time to full-time reflected his growing value and commitment to development. He consistently met deadlines, communicated effectively with clients, and demonstrated strong problem-solving abilities.
+
+\textbf{Recommendation}
+
+I recommend Mr. Chan Ka Shing without reservation for the Programmer (System Development) position. His technical expertise, practical experience, and professional demeanor make him ideal for system development roles. His proven track record would be valuable to any development team.
+
+Should you require additional information regarding Mr. Chan's qualifications, please contact me.
+
+\closing{Sincerely,}
+
+\end{letter}
+
+\end{document}
