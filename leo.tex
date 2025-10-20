@@ -1,0 +1,270 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape HUNG, Chi Him Leo} \\ \vspace{3pt}
+    \small
+    \faAt \hspace{.5pt} \href{mailto:hchihim@gmail.com}{hchihim@gmail.com}
+    $|$
+    \faPhone \hspace{.5pt} +852 6210 7787
+\end{center}
+
+
+
+%----------- PROFESSIONAL SUMMARY -----------
+
+\section{Professional Summary}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        Over 4 years of full-time IT experience with 3 years specialized in Quality Assurance and UAT Testing. Experienced in test case design, manual testing, and regression testing across banking applications, websites, and internal systems. Strong background in communicating with business analysts, users, and UIUX designers to ensure quality delivery of financial technology solutions.
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Hong Kong Baptist University (HKBU)}{Hong Kong}
+      {Bachelor of Social Sciences (Honours) in Media and Social Communication}{Graduated May 2021}
+
+    \resumeSubheading
+      {Hong Kong Community College (HKCC)}{Hong Kong}
+      {Associate in Information Technology}{Graduated May 2019}
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+        \textbf{Testing \& QA:}{ UAT Testing, Test Case Design, Test Planning, Manual Testing, Regression Testing, Functional Testing} \\ \vspace{3pt}
+
+        \textbf{Programming \& Technologies:}{ Java, JavaScript, SQL, VBA, HTML} \\ \vspace{3pt}
+
+        \textbf{Tools \& Platforms:}{ Excel, Jira, Banking Internal Systems, Mobile Applications (iOS/Android), Web Applications} \\ \vspace{3pt}
+
+        \textbf{Domain Knowledge:}{ Banking Systems, Unit Trust, Stock Trading, Fund Transfer, Financial Applications} \\ \vspace{3pt}
+
+        \textbf{Soft Skills:}{ Requirements Analysis, Stakeholder Communication, User Acceptance Testing, Documentation} \\ \vspace{3pt}
+
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bank of China}{Hong Kong}
+      {UAT Tester}{Aug 2025 \textbf{--} Nov 2025}
+        \resumeItemListStart
+            \resumeItem{Designed test plans and test cases for user stories and user requirements for the Frontline Workbench System used by Relationship Managers and Branch Managers.}
+            \resumeItem{Tested features including activity creation, business opportunity management, and customer information retrieval.}
+            \resumeItem{Collaborated closely with Business Analysts, end users, and UIUX designers to gather requirements and ensure alignment between specifications and implementation.}
+            \resumeItem{Executed test cases according to designed steps, verified expected results, and conducted comprehensive regression testing.}
+            \resumeItem{Documented test results and defects, ensuring clear communication with development teams for issue resolution.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Oversea-Chinese Banking Corporation Limited (OCBC Bank)}{Hong Kong}
+      {QA Engineer}{Feb 2025 \textbf{--} Aug 2025}
+        \resumeItemListStart
+            \resumeItem{Responsible for quality assurance across multiple banking projects including mobile applications, websites, and internal banking systems.}
+            \resumeItem{Designed and executed test cases for new features, function revamps, and regression testing using Excel and Jira.}
+            \resumeItem{Tested critical banking functions including Unit Trust, Stock Trading, Fund Transfer, and Password Change features.}
+            \resumeItem{Created UAT testing requirements and coordinated with stakeholders to ensure comprehensive test coverage.}
+            \resumeItem{Performed manual testing of new requirements and conducted thorough regression tests to maintain system stability.}
+            \resumeItem{Communicated effectively with users and project teams to understand business requirements and translate them into actionable test scenarios.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {China Construction Bank}{Hong Kong}
+      {UAT Tester}{May 2023 \textbf{--} Dec 2024}
+        \resumeItemListStart
+            \resumeItem{Conducted UAT testing for banking applications across multiple platforms including mobile apps, web applications, and internal bank systems.}
+            \resumeItem{Developed comprehensive test cases and executed manual testing for new features, system enhancements, and regression testing.}
+            \resumeItem{Tested financial functions such as Unit Trust, Stock Trading, Fund Transfer, and security features like Password Change.}
+            \resumeItem{Collaborated with cross-functional teams including developers, business analysts, and end users to ensure quality delivery.}
+            \resumeItem{Utilized Excel for test case management and Jira for defect tracking and project coordination.}
+            \resumeItem{Maintained detailed test documentation and provided regular status updates to stakeholders.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {PCCW Solutions Limited}{Hong Kong}
+      {Programmer}{Oct 2021 \textbf{--} Oct 2022}
+        \resumeItemListStart
+            \resumeItem{Developed and maintained the Case Management Information System (CMIS), a web-based application for Disciplined Services integrated with government systems.}
+            \resumeItem{Performed application development, maintenance, programming, and bug-fixing for government case information systems.}
+            \resumeItem{Conducted system testing and deployment to SIT and UAT environments.}
+            \resumeItem{Worked with technologies including Java, JavaScript, SQL, VBA, and HTML to deliver robust solutions.}
+            \resumeItem{Collaborated with government stakeholders to ensure system requirements were met and maintained.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS & ACHIEVEMENTS -----------
+
+\section{Key Projects}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Frontline Workbench System (Bank of China):}{ Designed comprehensive test plans for a system enabling Relationship Managers and Branch Managers to create activities, manage business opportunities, and access customer information} \\ \vspace{3pt}
+
+        \textbf{Banking Applications Testing (OCBC \& CCB):}{ Led UAT testing efforts for critical banking functions including Unit Trust, Stock Trading, and Fund Transfer across mobile apps, websites, and internal systems} \\ \vspace{3pt}
+
+        \textbf{Case Management Information System (PCCW):}{ Contributed to development and testing of web-based government system for Disciplined Services} \\ \vspace{3pt}
+
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
