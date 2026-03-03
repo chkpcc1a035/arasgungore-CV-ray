@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(HOMEBREW_NO_AUTO_UPDATE=1 brew install pandoc)",
+      "Bash(pandoc:*)",
+      "Bash(make:*)",
+      "Bash(grep:*)",
+      "Bash(chmod:*)",
+      "Bash(./convert_to_docx.sh:*)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}
