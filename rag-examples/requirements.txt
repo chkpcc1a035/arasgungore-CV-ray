@@ -1,0 +1,6 @@
+anthropic>=0.39.0
+sentence-transformers>=3.0.0
+numpy>=1.26.0
+rank-bm25>=0.2.2
+psycopg[binary]>=3.2.0
+pgvector>=0.3.0
