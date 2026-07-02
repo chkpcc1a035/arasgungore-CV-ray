@@ -165,23 +165,25 @@
   \resumeSubHeadingListStart
     \small{\item{
         
-        \textbf{Frontend:}{ JavaScript/TypeScript, React, Vue, Next.js, Remix, HTML, CSS, Tailwind CSS} \\ \vspace{3pt}
+        \textbf{Python Backend:}{ Python (async/asyncio), FastAPI, Pydantic, pytest, Django, service-oriented code organization; Node.js, Express, Fastify, Java (J2EE)} \\ \vspace{3pt}
 
-        \textbf{Backend:}{ Node.js, Express, Fastify, Python, Django, Java (J2EE, Java 7, 8, 15)} \\ \vspace{3pt}
+        \textbf{LLM \& Agents:}{ Azure OpenAI / OpenAI APIs (chat completions, embeddings, streaming, tool calling, structured output, retries/timeout handling, token \& cost tracking), LangChain, LangGraph, LlamaIndex, vLLM, RAG pipelines, MCP integration, Dify, Hugging Face, n8n} \\ \vspace{3pt}
 
-        \textbf{Databases:}{ PostgreSQL, MySQL, MongoDB, Redis, Railguard (Vector DB)} \\ \vspace{3pt}
+        \textbf{Observability \& Monitoring:}{ Langfuse (LLM tracing, prompt/version tracking, tool-call failures, token/cost dashboards), Grafana, Loki, Prometheus, Splunk, alerting} \\ \vspace{3pt}
 
-        \textbf{AI \& Generative AI:}{ LangChain, LangGraph, LlamaIndex, Dify, vLLM, PyTorch/CUDA, RAG pipelines, MCP integration, Hugging Face, n8n workflow automation} \\ \vspace{3pt}
+        \textbf{Data \& SQL:}{ PostgreSQL, Cosmos DB for PostgreSQL, MySQL, Databricks SQL Warehouse, Redis (caching), MongoDB, vector databases; SQL for business logic, validation, aggregation, and reusable templates} \\ \vspace{3pt}
 
-        \textbf{CI/CD \& DevSecOps:}{ GitLab CI, Jenkins (Groovy scripting), Git, GitHub Actions, Azure DevOps Pipelines, JIRA, SonarQube, Nexus, Harbor} \\ \vspace{3pt}
+        \textbf{Search \& Retrieval:}{ Azure AI Search, vector search, keyword search, hybrid retrieval, embeddings, ranking, query performance optimization} \\ \vspace{3pt}
 
-        \textbf{Monitoring \& Observability:}{ Grafana, Loki, Prometheus, Splunk} \\ \vspace{3pt}
+        \textbf{Cloud \& Azure:}{ Azure (OpenAI, AI Search, Cosmos DB, Databricks, DevOps Pipelines, storage, service principals, managed identity), AWS (CLP, SAA certified), GCP, DEV/UAT/PROD environment setup} \\ \vspace{3pt}
 
-        \textbf{Infrastructure \& Cloud:}{ Docker, Kubernetes (CKAD certified), Terraform, Helm, Ansible, Proxmox, Linux/RHEL administration} \\ \vspace{3pt}
+        \textbf{Security \& Access Control:}{ OAuth 2.0 / Entra ID, service principals, secure token handling, backend access validation, sensitive error masking, HashiCorp Vault, CyberArk} \\ \vspace{3pt}
 
-        \textbf{Cloud Platforms:}{ AWS (CLP, SAA certified), Azure (DevOps, Databricks), GCP, Oracle Cloud, Cloudflare} \\ \vspace{3pt}
+        \textbf{CI/CD \& Infrastructure:}{ GitHub Actions, Jenkins (Groovy), GitLab CI, Azure DevOps, Docker, Kubernetes (CKAD certified), Terraform, Helm, Ansible, SonarQube, JIRA} \\ \vspace{3pt}
 
-        \textbf{Testing:}{ PyTest, Selenium, Playwright, unit/integration/automated testing} \\ \vspace{3pt}
+        \textbf{Testing:}{ pytest, Selenium, Playwright; unit, integration, API, and stress testing; test automation in CI} \\ \vspace{3pt}
+
+        \textbf{Frontend:}{ TypeScript, React, Next.js, Vue \textbf{--} for UI--backend integration and middle-layer work} \\ \vspace{3pt}
 
         \textbf{Languages:}{ Chinese (Cantonese): Native, Chinese (Mandarin): Native, English: Fluent} \\ \vspace{3pt}
         
@@ -200,14 +202,15 @@
       {Prudential (Hong Kong) Limited}{Hong Kong}
       {Platform Engineer, Data Transformation Scrum Team}{Nov 2025 \textbf{--} Current}
         \resumeItemListStart
-            \resumeItem{Platform Engineer in the Data Transformation Scrum Team, collaborating with cross-functional teams including data scientists and AI specialists to deliver data platform infrastructure in Agile sprints via JIRA within a large-scale financial services enterprise.}
-            \resumeItem{Build and maintain full-stack platform infrastructure using Terraform, Helm for Kubernetes deployments, GitHub Actions and Jenkins for CI/CD pipelines with automated testing, artefact management, security scanning, and multi-environment deployments.}
-            \resumeItem{Develop and manage data pipelines and analytics workloads on Azure Databricks (Spark-based), integrating AI/ML models into platform services for business use cases including marketing analytics and data-driven decision making.}
-            \resumeItem{Self-hosted and served open-source LLMs with vLLM on NVIDIA DGX Spark (CUDA/GPU-accelerated) for high-throughput, low-latency inference, and built Retrieval-Augmented Generation (RAG) pipelines and LLM applications using LangChain integrated with vector databases for enterprise knowledge retrieval.}
-            \resumeItem{Set up and managed an AI Gateway layer (Kong and Bifrost) for centralized LLM routing, rate limiting, authentication, and observability, and implemented Guardrails for prompt/response validation, PII redaction, and content safety to ensure responsible AI usage.}
-            \resumeItem{Designed and operated CI/CD pipelines (GitHub Actions and Jenkins) to automate build, testing, and multi-environment deployment of LLM serving infrastructure and AI Gateway components on Kubernetes.}
-            \resumeItem{Monitor platform health and performance using Grafana dashboards with Loki and Prometheus. Identify and resolve bottlenecks, proposing and implementing improvements to existing systems and processes.}
-            \resumeItem{Participate in project planning sessions to analyse development requirements, evaluate emerging technologies, and conduct proof-of-concept (PoC) evaluations to improve platform scalability and performance.}
+            \resumeItem{Productionize LLM and agent workflows into reliable backend services and pipelines using async Python (FastAPI, Pydantic), collaborating with data scientists, LLM developers, frontend engineers, and QA in Agile sprints (JIRA) within a large-scale financial services enterprise.}
+            \resumeItem{Integrate Azure OpenAI / OpenAI APIs into platform services -- chat completions, embeddings, streaming, tool calling, and structured output -- with retry/timeout handling, failsafe fallback behavior, and per-request token and cost tracking.}
+            \resumeItem{Built Retrieval-Augmented Generation (RAG) pipelines with LangChain and vector databases for enterprise knowledge retrieval, covering embeddings, vector/keyword/hybrid retrieval, ranking, and query performance optimization; self-hosted open-source LLMs with vLLM (CUDA/GPU-accelerated) for high-throughput, low-latency inference.}
+            \resumeItem{Supported the MLOps team in deploying and configuring Azure AI Search and Cosmos DB for PostgreSQL as retrieval and storage backends for AI services, including index/schema setup and environment provisioning across DEV/UAT/PROD.}
+            \resumeItem{Set up and manage an AI Gateway middle layer (Kong and Bifrost) between UI clients and agent/model backends for centralized LLM routing, session and authentication handling, rate limiting, request validation, and service-to-service communication; implemented Guardrails for prompt/response validation, PII redaction, and sensitive error masking.}
+            \resumeItem{Develop and manage data pipelines and analytics workloads on Azure Databricks (Spark, Databricks SQL), writing SQL for business logic, validation, aggregation, and reusable templates that integrate AI/ML model outputs into business use cases such as marketing analytics.}
+            \resumeItem{Monitor LLM and platform health with Grafana dashboards (Loki, Prometheus) covering latency, error rates, tool-call failures, and token/cost consumption, with alerting; identify and resolve performance bottlenecks via caching (Redis), async processing, and infrastructure tuning.}
+            \resumeItem{Operate CI/CD pipelines (GitHub Actions, Jenkins) with Terraform and Helm for Kubernetes, automating build, test, security scanning, and release/version-tracked deployments of LLM serving infrastructure and gateway components across DEV/UAT/PROD environments.}
+            \resumeItem{Conduct proof-of-concept evaluations of emerging AI tooling and contribute to planning, documentation, and PR reviews to improve platform scalability, reliability, and developer experience.}
         \resumeItemListEnd
 
     \resumeSubheading
@@ -215,21 +218,21 @@
       {DevOps Engineer}{Mar 2025 \textbf{--} Nov 2025}
         \resumeItemListStart
             \resumeItem{DevOps Engineer for the largest Hong Kong eMPF Platform -- a central electronic platform for MPF scheme administration in a large-scale financial services enterprise environment.}
-            \resumeItem{Designed and operated CI/CD pipelines using Jenkins and Git (Bitbucket) for deploying web applications, Android, and iOS apps, integrating unit testing, integration testing, artefact management, SonarQube security scanning, and multi-environment deployments.}
-            \resumeItem{Created automation scripts using Python, Bash, and Jenkins Groovy while implementing Docker containerization. Managed deployment lifecycle on Red Hat OpenShift (Kubernetes) with Oracle Database environments.}
-            \resumeItem{Integrated DevSecOps tooling including CyberArk, HashiCorp Vault, SonarQube for code quality, and Splunk for security monitoring throughout CI/CD pipelines. Coordinated workflows using JIRA.}
-            \resumeItem{Collaborated with cross-functional Application Teams, Architects, and QA to ensure seamless version control, automated testing, and environment setup in a continuous delivery environment.}
-            \resumeItem{Deployed and configured web applications on Nginx, MuleSoft API Gateway, and Solace. Managed service integrations with internal and external APIs within private cloud infrastructure.}
-            \resumeItem{Monitored platform performance using Grafana and Loki dashboards, identifying and resolving bottlenecks during build, testing, and deployment phases to maintain high availability.}
+            \resumeItem{Designed and operated CI/CD pipelines using Jenkins and Git (Bitbucket) with unit testing, integration testing, artefact management, SonarQube security scanning, and release-tracked deployments across DEV/UAT/PROD environments; provided production incident support and root-cause analysis.}
+            \resumeItem{Created automation and test scripts using Python, Bash, and Jenkins Groovy while implementing Docker containerization. Managed deployment lifecycle on Red Hat OpenShift (Kubernetes) with Oracle Database environments.}
+            \resumeItem{Integrated DevSecOps tooling including CyberArk and HashiCorp Vault for secure secret and token handling, SonarQube for code quality, and Splunk for security monitoring throughout CI/CD pipelines. Coordinated workflows using JIRA.}
+            \resumeItem{Collaborated with cross-functional Application Teams, Architects, QA, and vendor teams on version control, automated testing, and environment setup in a continuous delivery environment, with strong documentation and PR review discipline.}
+            \resumeItem{Deployed and configured web applications on Nginx, MuleSoft API Gateway, and Solace. Managed service-to-service integrations with internal and external APIs within private cloud infrastructure.}
+            \resumeItem{Monitored platform performance using Grafana and Loki dashboards with alerting, identifying and resolving latency and reliability bottlenecks to maintain high availability under concurrent user workloads.}
         \resumeItemListEnd
 
     \resumeSubheading
       {Ntuple Global Limited}{Hong Kong}
       {Full-stack Developer/Senior Software Developer (Remote from Canada)}{Oct 2022 \textbf{--} Mar 2025}
         \resumeItemListStart
-            \resumeItem{Designed and developed full-stack web applications (React/Next.js frontend, Node.js/Python backend, MySQL/PostgreSQL databases) for multiple F\&B, CRM, and enterprise clients, ensuring high performance, scalability, and security.}
-            \resumeItem{Implemented system architecture to extract terabytes of data for ETL pipeline development for the largest public railway transport in Hong Kong, integrating with multiple data warehouse and service APIs.}
-            \resumeItem{Developed Python-based API services with Selenium/Playwright for web automation and testing; managed data storage in MySQL and Amazon S3.}
+            \resumeItem{Designed and developed full-stack web applications (React/Next.js frontend, Node.js/Python backend, MySQL/PostgreSQL databases) for multiple F\&B, CRM, and enterprise clients, optimizing API latency, database queries, and caching for high performance, scalability, and security.}
+            \resumeItem{Implemented system architecture to extract terabytes of data for ETL pipeline development for the largest public railway transport in Hong Kong, writing SQL for validation, aggregation, and filtering and integrating with multiple data warehouse and service APIs.}
+            \resumeItem{Developed async Python API services with automated testing (pytest, Selenium, Playwright) covering unit, integration, and API test scenarios; managed data storage in MySQL and Amazon S3.}
             \resumeItem{Managed AWS EKS (Kubernetes), EC2, and cloud infrastructure. Designed CI/CD pipelines using GitHub Actions with automated testing and AWS SSM integration. Utilized Terraform and Ansible for Infrastructure as Code.}
             \resumeItem{Developed online ordering systems with payment gateway API integrations (Mastercard, Stripe, GlobalPayment) following modern security standards.}
             \resumeItem{Led and mentored development teams of 2-3 people, participating in project planning sessions to analyse requirements, provide time estimates, and ensure code quality across multiple client projects.}
